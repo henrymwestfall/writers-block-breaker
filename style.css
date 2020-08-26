@@ -1,0 +1,25 @@
+body {
+    background-color: #addfad;
+}
+
+#main-container {
+    width: 1024px;
+    margin: auto;
+    background-color: seagreen;
+    text-align: center;
+    color: silver
+}
+
+textarea {
+    margin: auto;
+}
+
+h1 {
+    width: 1024px;
+    text-align: center;
+}
+
+.setting {
+    display: inline-block;
+    margin: 20px;
+}

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <title>Just Write</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="script.js"></script>
+    </head>
+    <body>
+        <div id="main-container">
+            <h1>Just Write</h1>
+            <p id="progress">Words: 0</p>
+            <progress id="progress-bar" value="0" max="100">0</progress>
+            <div id="settings">
+                <div class="setting">
+                    Allowed rest time (seconds):
+                    <input id="rest-time" type="number">
+                </div>
+                <div class="setting">
+                    Goal word count:
+                    <input id="word-count-goal" type="number">
+                </div>
+            </div>
+            <textarea id="notepad" rows="30" cols="100"></textarea>
+        </div>
+    </body>
+</html>
